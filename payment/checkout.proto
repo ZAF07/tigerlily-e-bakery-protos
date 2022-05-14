@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package rpc;
 // import "github.com/gogo/protobuf/gogoproto/gogo.proto";
-option go_package = "/payment";
+option go_package = "/rpc";
 
 message Checkout {
   string order_id = 1; 
