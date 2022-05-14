@@ -4,7 +4,7 @@ package inventory;
 
 option go_package = "rpc";
 
-import "inventory.proto";
+import "proto/inventory/inventory.proto";
 
 service InventoryService {
   rpc GetAllInventories(GetAllInventoriesReq) returns (GetAllInventoriesResp);
