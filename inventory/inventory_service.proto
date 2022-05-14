@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import "/inventory/inventories.proto";
+import "proto/inventory/inventories.proto";
 
 package inventory;
 
