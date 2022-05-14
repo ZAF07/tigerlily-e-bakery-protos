@@ -1,10 +1,11 @@
 syntax = "proto3";
 
-import "proto/inventory/inventories.proto";
 
 package inventory;
 
-option go_package = "/inventory";
+option go_package = "rpc";
+
+import "inventories.proto";
 
 service InventoryService {
   rpc GetAllInventories(GetAllInventoriesReq) returns (GetAllInventoriesResp);

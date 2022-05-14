@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package inventory;
 
-option go_package = "../inventory";
+option go_package = "rpc";
 
 message GetAllInventoriesReq {
   int32 limit = 1;
