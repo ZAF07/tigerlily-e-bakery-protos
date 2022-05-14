@@ -2,7 +2,7 @@ syntax = "proto3";
 
 import "proto/payment/checkout.proto";
 
-package payment;
+package rpc;
 
 option go_package = "/payment";
 
