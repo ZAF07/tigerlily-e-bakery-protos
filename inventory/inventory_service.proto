@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import "protos/inventories.proto";
+import "inventory/inventories.proto";
 
 package rpc;
 
