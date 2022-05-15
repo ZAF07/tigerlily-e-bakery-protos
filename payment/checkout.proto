@@ -19,4 +19,5 @@ message CheckoutReq {
 message CheckoutResp {
   string status_url = 1;
   bool success = 2;
+  string message = 3;
 }
