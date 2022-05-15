@@ -13,6 +13,7 @@ message Checkout {
 
 message CheckoutReq {
   repeated Checkout checkout_items = 1;
+  string payment_type = 2;
 }
 
 message CheckoutResp {
