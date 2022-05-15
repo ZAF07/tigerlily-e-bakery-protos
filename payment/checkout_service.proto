@@ -7,6 +7,5 @@ package rpc;
 option go_package = "/rpc";
 
 service CheckoutService {
-  rpc Checkout(CheckoutReq) returns (CheckoutResp) {};
   rpc StripeCheckoutSession(CheckoutReq) returns (CheckoutResp) {};
 }
