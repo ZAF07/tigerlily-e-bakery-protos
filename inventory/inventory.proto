@@ -16,6 +16,7 @@ message Sku {
   string type = 4 [json_name="type"];
   string description = 5 [json_name="description"];
   string image_url = 6 [json_name="image_url"];
+  int32 quantity = 7 [json_name="quantity"];
 };
 
 message GetAllInventoriesResp {
